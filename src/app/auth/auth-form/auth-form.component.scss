@@ -1,0 +1,16 @@
+.auth-container {
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    min-width: 50%;
+    margin-top: 20px;
+}
+
+.actions {
+    display: flex;
+    justify-content: space-around;
+}

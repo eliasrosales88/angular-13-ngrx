@@ -1,0 +1,13 @@
+.preferences-container {
+    display: flex;
+    justify-content: center;
+}
+h1 {
+    margin: 15px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    min-width: 50%;
+    margin-top: 20px;
+}

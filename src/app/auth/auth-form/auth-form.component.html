@@ -1,0 +1,16 @@
+<div class="auth-container">
+    <form [formGroup]="auth">
+    <mat-form-field>
+        <input matInput formControlName="username" placeholder="username or email">
+    </mat-form-field>
+    <mat-form-field>
+        <input matInput formControlName="password" type="password" placeholder="password">
+    </mat-form-field>
+    <div class="actions">
+        <button mat-raised-button color="primary" [disabled]="!auth.valid" (click)="onSubmit('local')">Sign in</button>
+        <button mat-raised-button color="primary" [disabled]="!auth.valid" (click)="onSubmit('google')">Google</button>
+        <button mat-raised-button color="primary" [disabled]="!auth.valid" (click)="onSubmit('facebook')">Facebook</button>
+    </div>
+    </form>
+    
+</div>
